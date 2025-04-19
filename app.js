@@ -42,7 +42,7 @@ const io = new Server(server, {
 });
 
 DB().then(() => {
-    server.listen(3000, (err) => {
+    server.listen(process.env.PORT || 3000, (err) => {
 
         if (err) {
             process.exit(1)

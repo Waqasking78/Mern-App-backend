@@ -1,0 +1,12 @@
+# node dependencies
+node_modules/
+
+# environment variables
+.env
+
+# logs
+*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
